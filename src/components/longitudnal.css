@@ -1,0 +1,123 @@
+.longitudnal_page{
+  
+}
+.image{
+    border: 2px solid black;
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.structure_btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.structure_text{
+    box-shadow: -2px -2px 2px rgb(85, 83, 83);
+}
+.structure_text {
+   padding: 5px 10px;
+   background: #4343431c;
+   border: none;
+   /* border-radius: 50px; */
+   box-shadow:inset 10px 10px 10px -1px rgba(10,99,169,0.16),inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+  }
+  .bridge_type{
+    display: flex;
+    gap: 40%;
+    padding: 20px;
+    border: 3px solid rgb(223, 216, 216);
+  }
+  .bridge_text{
+    position: relative;
+    top: 0.5rem;
+    background-color: white;
+    margin: 0 10px;
+  }
+  
+  .top_left_btn input[type="number"]{
+    width: 40px;
+    padding: 0 0 0 10px;
+  }
+  
+  .top_left_btn_select{
+    width: 5rem;
+  }
+  .three_dots{
+  height: 18px;
+  background: linear-gradient(#fbfbfb, #d1d1d1);
+  border: none;
+  position: relative;
+  top: -2px;
+  }
+  .dots{
+    font-size: 36px; 
+    line-height: 0; 
+    margin-top: -10px;
+    letter-spacing: -2px; 
+  }
+
+  .top_btn{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    height: 50px;
+  }
+
+  .top_left_btn label{
+   margin-right: 20px;
+   padding: 5px 20px;
+   background-color: #d1d1d1;
+  }
+  .top_down_btn{
+    display: flex;
+    gap: 25%;
+    align-items: center;
+    height: 50px;
+  }
+
+  .skew_angle{
+    display: flex;
+    height: 30px;
+    align-items: center;
+  }
+  .skew_angle input{
+    width: 60px;
+    margin-left: 20px;
+  }
+  .ex{
+    position: relative;
+    top: -10px;
+    left: 20%;
+  }
+
+  .table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .cell {
+    /* border: 1px solid black; */
+    padding: 6px;
+    display: flex;
+    align-items: center;
+  }
+  .cell label{
+    background-color: #edeeeb34;
+    width: 30px;
+    text-align: center;
+  }
+  .cell input{
+    border: none;
+    width: 70%;
+    height: 100%;
+  }
+  
+
+  
