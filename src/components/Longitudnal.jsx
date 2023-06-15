@@ -24,7 +24,7 @@ const Longitudnal = () => {
           <label htmlFor="2-D">2-Dimensional</label>
         </div>
         <div className="3d_btn">
-          <input type="radio" name="structure" id="3-D" value="3-D" checked/>
+          <input type="radio" name="structure" id="3-D" value="3-D" />
           <label htmlFor="3-D">3-Dimensional</label>
         </div>
       </div>
@@ -77,7 +77,7 @@ const Longitudnal = () => {
         </div>
         <div className="top_right_btn">
           <label htmlFor="wing_wall">Wing Wall</label>
-          <input type="checkbox" name="" id="wing_wall" checked />
+          <input type="checkbox" name="" id="wing_wall"  />
           <input type="number" name="" id="" placeholder="0.4572" />
           <span>m</span>
         </div>
@@ -91,122 +91,122 @@ const Longitudnal = () => {
       </div>
 
       <div className="dimentions">
-        <div class="table">
-          <div class="cell">
+        <div className="table">
+          <div className="cell">
             <label htmlFor="t1">t1</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.t1} type="number" name="t1" id="t1" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="t2">t2</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.t2} type="number" name="t2" id="t2" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="t3">t3</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.t3} type="number" name="t3" id="t3" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="t4">t4</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.t4} type="number" name="t4" id="t4" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="a1">a1</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.a1} type="number" name="a1" id="a1" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="a2">a2</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.a2} type="number" name="a2" id="a2" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="a3">a3</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.t3} type="number" name="a3" id="a3" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="a4">a4</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.a4} type="number" name="a4" id="a4" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="b1">b1</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.b2} type="number" name="b1" id="b1" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="b2">b2</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.b2} type="number" name="b2" id="b2" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="b3">b3</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.b3} type="number" name="b3" id="b3" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="b4">b4</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.b4} type="number" name="b4" id="b4" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="b5">b5</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.b5} type="number" name="b5" id="b5" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="b6">b6</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.b6} type="number" name="b6" id="b6" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="h1">h1</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.h1} type="number" name="h1" id="h1" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="h2">h2</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.h2} type="number" name="h2" id="h2" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="h3">h3</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.h3} type="number" name="h3" id="h3" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="A">A</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.A} type="number" name="A" id="A" />
             <span>[dig]</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="C">C</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.C} type="number" name="C" id="C" />
             <span>m</span>
           </div>
-          <div class="cell">
+          <div className="cell">
             <label htmlFor="P">P</label>
             <input onChange={(e)=> setDimentions({...dimentions,[e.target.name]:e.target.value})}
             value={dimentions.P} type="number" name="P" id="P" />

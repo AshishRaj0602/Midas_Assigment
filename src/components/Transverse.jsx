@@ -33,7 +33,7 @@ const Transverse = () => {
         </div>
       </div>
       <div className="table">
-        <div class="cell">
+        <div className="cell">
           <label htmlFor="b1">b1</label>
           <input
             onChange={(e) =>
@@ -46,7 +46,7 @@ const Transverse = () => {
           />
           <span>m</span>
         </div>
-        <div class="cell">
+        <div className="cell">
           <label htmlFor="b2">b2</label>
           <input
             onChange={(e) =>
@@ -59,7 +59,7 @@ const Transverse = () => {
           />
           <span>m</span>
         </div>
-        <div class="cell">
+        <div className="cell">
           <label htmlFor="b3">b3</label>
           <input
             onChange={(e) =>
@@ -72,7 +72,7 @@ const Transverse = () => {
           />
           <span>m</span>
         </div>
-        <div class="cell">
+        <div className="cell">
           <label htmlFor="b4">b4</label>
           <input
             onChange={(e) =>
@@ -85,7 +85,7 @@ const Transverse = () => {
           />
           <span>m</span>
         </div>
-        <div class="cell">
+        <div className="cell">
           <label htmlFor="b5">b5</label>
           <input
             onChange={(e) =>
@@ -98,7 +98,7 @@ const Transverse = () => {
           />
           <span>m</span>
         </div>
-        <div class="cell">
+        <div className="cell">
           <label htmlFor="b6">b6</label>
           <input
             onChange={(e) =>
@@ -111,7 +111,7 @@ const Transverse = () => {
           />
           <span>m</span>
         </div>
-        <div class="cell">
+        <div className="cell">
           <label htmlFor="t7">b1</label>
           <input
             onChange={(e) =>
@@ -124,7 +124,7 @@ const Transverse = () => {
           />
           <span>m</span>
         </div>
-        <div class="cell">
+        <div className="cell">
           <label htmlFor="D">D</label>
           <input
             onChange={(e) =>
@@ -137,7 +137,7 @@ const Transverse = () => {
           />
           <span>m</span>
         </div>
-        <div class="cell">
+        <div className="cell">
           <label htmlFor="n">n</label>
           <input
             onChange={(e) =>
